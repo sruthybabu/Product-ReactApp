@@ -15,14 +15,14 @@ const Header = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-            <Link to="/" className="nav-link active">Product Entry</Link>
-          
+            <Link to="/" className="nav-link active">Product Entry</Link>  
         </li>
         <li className="nav-item">
             <Link to="/search" className="nav-link">Search Product</Link>
-          
         </li>
-        
+        <li className="nav-item">
+            <Link to="/view" className="nav-link">View Product</Link>
+        </li>
       </ul>
     </div>
   </div>
