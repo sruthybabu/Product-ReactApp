@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from './Header'
 
 const Productentry = () => {
   return (
     <div>
-
+<Header/>
 
 <div className="container">
     <div className="row">
