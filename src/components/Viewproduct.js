@@ -13,7 +13,7 @@ const Viewproduct = () => {
                     {productlist.map((value,key)=>{
                         return <div className='col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4'>
                             <div className="card">
-  <img src={value.image} class="card-img-top" alt="..."/>
+  <img style={{width:250,height:250}} src={value.image} class="card-img-top" alt="..."/>
   <div className="card-body">
       <h1 className="card-id">{value.id}</h1>
     <h5 className="card-title">{value.title}</h5>
