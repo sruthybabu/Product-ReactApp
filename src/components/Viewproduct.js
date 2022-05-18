@@ -20,6 +20,7 @@ const Viewproduct = () => {
     <p className="card-text">Price:{value.price}</p>
     <p className="card-text">Descrpition:{value.description}</p>
     <p className="card-text">Category:{value.category}</p>
+    <p className="card-text">Rating:{value.rating.rate}</p>
     <a href="#" className="btn btn-primary">Buy Now</a>
   </div>
 </div>
